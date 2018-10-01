@@ -10,7 +10,7 @@ Go to `localhost:8000`, you should be able ro see 'WELCOME TO REST API URSA!'
 
 ### More about `.env` file
 
-DB_PATH=mongodb://(Mongodb databse url)
+DB_PATH=mongodb://(Mongodb databse uri)
 
 PORT=8000
 
