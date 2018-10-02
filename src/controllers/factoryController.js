@@ -12,7 +12,7 @@ function factoryController () {
 
   // Get total factories
   this.totalFactories = (req, res) => Factory.find().count()
-  .then(count => res.send({ 'total': count + 12000 }))
+  .then(count => res.send({ 'total': count }))
   .catch(err => res.send({ 'error': err }))
 
   // Fetching Details of Factory
